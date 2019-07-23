@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.thp.widget.NoScrollViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#888" />
+
+    <com.yinglan.alphatabs.AlphaTabsIndicator
+        android:id="@+id/alphaIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@mipmap/ic_launcher_round"
+            app:tabIconSelected="@mipmap/ic_launcher_round"
+            app:tabText="@string/news"
+            app:tabTextSize="13sp"
+            app:textColorNormal="#999999"
+            app:textColorSelected="#46c01b" />
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@mipmap/ic_launcher_round"
+            app:tabIconSelected="@mipmap/ic_launcher_round"
+            app:tabText="@string/f_photo"
+            app:tabTextSize="13sp"
+            app:textColorNormal="#999999"
+            app:textColorSelected="#46c01b" />
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@mipmap/ic_launcher_round"
+            app:tabIconSelected="@mipmap/ic_launcher_round"
+            app:tabText="@string/f_video"
+            app:tabTextSize="13sp"
+            app:textColorNormal="#999999"
+            app:textColorSelected="#46c01b" />
+
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@mipmap/ic_launcher_round"
+            app:tabIconSelected="@mipmap/ic_launcher_round"
+            app:tabText="@string/f_seetting"
+            app:tabTextSize="13sp"
+            app:textColorNormal="#999999"
+            app:textColorSelected="#46c01b" />
+    </com.yinglan.alphatabs.AlphaTabsIndicator>
+</LinearLayout>

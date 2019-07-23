@@ -1,0 +1,4 @@
+include ':app'
+include ':commonLib'
+include ':widget'
+include ':dialog'

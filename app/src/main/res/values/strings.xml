@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MvpProject</string>
+
+    <!-- 提示 -->
+    <string name="hint_layout_no_data">亲，暂无数据</string>
+    <string name="hint_layout_error_request">亲，请求出错了</string>
+    <string name="hint_layout_error_network">亲，没有网络了</string>
+    <string name="news">新闻</string>
+    <string name="f_photo">图片</string>
+    <string name="f_video">视频</string>
+    <string name="f_seetting">设置</string>
+    <string name="error_occurred">发生意外错误。\n 抱歉,给您带来不便。</string>
+    <string name="restart_app">重新启动</string>
+    <string name="unknown_exception">错误日志</string>
+    <string name="close_app">关闭应用</string>
+
+</resources>
